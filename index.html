@@ -1,13 +1,30 @@
----
-layout: presentation
----
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
 
-{% for post in site.posts reversed %}
-	{% include slide.html %}
-	<div class="page-break"></div>
-{% endfor %}
-{% unless site.simple-slideshow %}
-{% if site.overview %}
-<section id="overview" class="step" {% for attr in site.overview-data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}></section>
-{% endif %}
-{% endunless %}
+    <title>WORK</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="outerContainer">
+        <h3 class="written-in-ink"><a href="https://www.inklestudios.com/ink">WRITTEN IN INK</a></h3>
+        <div id="story" class="container">
+            <div class="header">
+                <h1>WORK</h1>
+                <h2 class="byline"></h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="ink.js"></script>
+    <script src="Untitled.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
